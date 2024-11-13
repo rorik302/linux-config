@@ -1,9 +1,9 @@
 return {
-  "folke/which-key.nvim",
-  event = "VimEnter",
-  opts = {
-    spec = {
-      { "<leader>f", group = "Find" }
-    }
-  }
+	"folke/which-key.nvim",
+	event = "VimEnter",
+	opts = {
+		spec = {
+			{ "<leader>f", group = "Find" },
+		},
+	},
 }

@@ -1,12 +1,12 @@
 return {
-  "Shatur/neovim-ayu",
-  config = function()
-    require("ayu").setup({
-      mirage = true,
-      terminal = true,
-      overrides = {}
-    })
+	"Shatur/neovim-ayu",
+	config = function()
+		require("ayu").setup({
+			mirage = true,
+			terminal = true,
+			overrides = {},
+		})
 
-    vim.cmd("colorscheme ayu-mirage")
-  end
+		vim.cmd("colorscheme ayu-mirage")
+	end,
 }
